@@ -1,4 +1,4 @@
-package com.example.demo.Exception;
+package com.example.weather.Exception;
 
 public class BadRequest extends RuntimeException{
     private static final long serialVersionUID = 1L;

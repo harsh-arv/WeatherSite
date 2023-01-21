@@ -1,11 +1,9 @@
-package com.example.demo.Model;
+package com.example.weather.Model;
 
-import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
 import java.time.OffsetDateTime;
-import java.util.ArrayList;
 import java.util.List;
 
 /**

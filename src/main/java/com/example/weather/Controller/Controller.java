@@ -1,18 +1,14 @@
-package com.example.demo.Controller;
+package com.example.weather.Controller;
 
-import com.example.demo.Exception.BadRequest;
-import com.example.demo.Exception.CommonException;
-import com.example.demo.Model.Model;
-import com.example.demo.Model.WeatherDetails;
-import com.example.demo.WeatherService.WeatherServiceImpl;
-import com.example.demo.proxy.WeatherProx;
-import feign.FeignException;
+import com.example.weather.Exception.CommonException;
+import com.example.weather.Model.WeatherDetails;
+import com.example.weather.WeatherService.WeatherServiceImpl;
+import com.example.weather.proxy.WeatherProx;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.client.HttpClientErrorException;
 
 @RestController
 @Validated

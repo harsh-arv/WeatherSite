@@ -1,19 +1,17 @@
-package com.example.demo.WeatherService;
+package com.example.weather.WeatherService;
 
 
-import com.example.demo.Entity.WeatherDb;
-import com.example.demo.Exception.BadRequest;
-import com.example.demo.Exception.CommonException;
-import com.example.demo.Model.Weather;
-import com.example.demo.Model.WeatherDetails;
-import com.example.demo.Repository.WeatherRepository;
+import com.example.weather.Entity.WeatherDb;
+import com.example.weather.Exception.BadRequest;
+import com.example.weather.Exception.CommonException;
+import com.example.weather.Model.WeatherDetails;
+import com.example.weather.Repository.WeatherRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
-import com.example.demo.proxy.WeatherProx;
+import com.example.weather.proxy.WeatherProx;
 
 import javax.transaction.Transactional;
-import java.util.List;
 
 
 @Service

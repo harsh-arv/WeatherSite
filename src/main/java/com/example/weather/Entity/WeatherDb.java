@@ -1,11 +1,10 @@
-package com.example.demo.Entity;
+package com.example.weather.Entity;
 
 import lombok.Data;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import javax.persistence.criteria.CriteriaBuilder;
 
 @Data
 @Entity

@@ -1,6 +1,6 @@
-package com.example.demo.Repository;
+package com.example.weather.Repository;
 
-import com.example.demo.Entity.WeatherDb;
+import com.example.weather.Entity.WeatherDb;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

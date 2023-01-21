@@ -1,9 +1,7 @@
-package com.example.demo.Model;
+package com.example.weather.Model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
-
-import java.math.BigDecimal;
 
 /**
  * RegistrationDetailsCoord

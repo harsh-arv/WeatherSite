@@ -1,8 +1,7 @@
-package com.example.demo.proxy;
+package com.example.weather.proxy;
 
-import com.example.demo.Model.WeatherDetails;
+import com.example.weather.Model.WeatherDetails;
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 

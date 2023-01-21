@@ -1,4 +1,4 @@
-package com.example.demo.Exception;
+package com.example.weather.Exception;
 
 import org.springframework.http.HttpStatus;
 
